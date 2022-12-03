@@ -212,7 +212,15 @@
 		"name": "Cancel improvement order",
 		"uniques": ["Can be built outside your borders"]
 	},
-	
+	// Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+ {
+ "name": "Repair",
+ "terrainsCanBeBuiltOn": ["Land"],
+ "turnsToBuild": 2,
+ "shortcutKey": "E",
+ "uniques": ["Unbuildable"],
+ "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+ },
 	// Great Person improvements
 	{
 		"name": "Academy",
